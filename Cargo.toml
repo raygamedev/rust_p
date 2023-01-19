@@ -1,0 +1,20 @@
+[package]
+name = "rustypleb"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = {version = "0.5.0-rc.2", features = ["json"]}
+serde = "1.0.136"
+dotenv = "0.15.0"
+env_logger = "0.10.0"
+log = "0.4.17"
+serial = "0.4.0"
+serial_test = "0.10.0"
+rand = "0.8.5"
+anyhow = "1.0.68"
+
+[dependencies.mongodb]
+version = "2.2.2"
